@@ -118,3 +118,5 @@ def plot_loss_acc(history):
 
 
 plot_loss_acc(history)
+
+model.save('model.h5')
