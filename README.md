@@ -3,6 +3,9 @@
 ## Overview:
 The NLP-based reviews Classification model is a machine learning project that uses natural language processing techniques to classify review into 2 categories. The system is built using Python, TensorFlow-Keras, and NLTK libraries. The system is hosted on a local server that accepts input resumes in PDF form using a Flask API.
 
+## Dataset: [Amazon Reviews](https://www.kaggle.com/datasets/bittlingmayer/amazonreviews)
+The dataset used for trainingthe model was picked from kaggle and later some was scrapped using selenium aand other web scrapping softwares.
+
 ### Features:
 Classifies resumes into 2 categories(Postive or Negative) based on job position and qualifications.
 Accepts input resumes in PDF form using a Flask API.
